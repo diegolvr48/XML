@@ -1,5 +1,5 @@
 {
-  "name": "acfbentveld/xml",
+  "name": "laravel/parse-xml",
   "description": "",
   "keywords": [
     "XML",
@@ -7,7 +7,7 @@
     "xml",
     "laravel"
   ],
-  "homepage": "https://github.com/ACFBentveld/XML",
+  "homepage": "https://github.com/diegolvr48/XML",
   "license": "MIT",
   "authors": [
     {
