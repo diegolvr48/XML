@@ -1,6 +1,6 @@
 <?php
 
-namespace ACFBentveld\XML\Exceptions;
+namespace OliveraD\XML\Exceptions;
 
 use Exception;
 

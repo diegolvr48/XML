@@ -1,6 +1,6 @@
 <?php
 
-namespace ACFBentveld\XML\Data;
+namespace OliveraD\XML\Data;
 
 class XMLElement extends \SimpleXMLElement
 {

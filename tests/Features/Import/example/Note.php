@@ -1,6 +1,6 @@
 <?php
 
-namespace ACFBentveld\XML\Tests\Features\Import\example;
+namespace OliveraD\XML\Tests\Features\Import\example;
 
 class Note extends \Illuminate\Database\Eloquent\Model
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace ACFBentveld\XML\Casts;
+namespace OliveraD\XML\Casts;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -70,7 +70,7 @@ To save it to the database add the `->save()` calls yourself.
 
 If the class is not a laravel model we pass a array with data to the constructor.
 
-If you want to change this behavior apply the `ACFBentveld\XML\Casts\Castable` interface on your class.
+If you want to change this behavior apply the `OliveraD\XML\Casts\Castable` interface on your class.
 
 For more information and examples on casting checkout the [examples/casts.php](/examples/casts.php) file.
 

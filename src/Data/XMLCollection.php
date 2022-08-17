@@ -1,12 +1,12 @@
 <?php
 
-namespace ACFBentveld\XML\Data;
+namespace OliveraD\XML\Data;
 
-use ACFBentveld\XML\Casts\Cast;
-use ACFBentveld\XML\Casts\PendingCast;
-use ACFBentveld\XML\Transformers\PendingTransform;
-use ACFBentveld\XML\Transformers\Transformable;
-use ACFBentveld\XML\XML;
+use OliveraD\XML\Casts\Cast;
+use OliveraD\XML\Casts\PendingCast;
+use OliveraD\XML\Transformers\PendingTransform;
+use OliveraD\XML\Transformers\Transformable;
+use OliveraD\XML\XML;
 use ArrayAccess;
 use ArrayIterator;
 use Countable;
@@ -46,7 +46,7 @@ class XMLCollection implements ArrayAccess, Countable, IteratorAggregate, JsonSe
     /**
      * Returns the raw xml data.
      *
-     * @return \ACFBentveld\XML\Data\XMLElement
+     * @return \OliveraD\XML\Data\XMLElement
      * @author Amando Vledder <amando@nugtr.nl>
      */
     public function raw()
@@ -127,7 +127,7 @@ class XMLCollection implements ArrayAccess, Countable, IteratorAggregate, JsonSe
      *
      * @param $key
      *
-     * @return \ACFBentveld\XML\Transformers\PendingTransform
+     * @return \OliveraD\XML\Transformers\PendingTransform
      */
     public function transform($key): PendingTransform
     {
@@ -145,7 +145,7 @@ class XMLCollection implements ArrayAccess, Countable, IteratorAggregate, JsonSe
      *
      * @param $key
      *
-     * @return \ACFBentveld\XML\Casts\PendingCast
+     * @return \OliveraD\XML\Casts\PendingCast
      */
     public function cast($key): PendingCast
     {
@@ -276,7 +276,7 @@ class XMLCollection implements ArrayAccess, Countable, IteratorAggregate, JsonSe
     /**
      * Get the xml.
      *
-     * @return \ACFBentveld\XML\Data\XMLObject
+     * @return \OliveraD\XML\Data\XMLObject
      */
     public function get()
     {
@@ -288,7 +288,7 @@ class XMLCollection implements ArrayAccess, Countable, IteratorAggregate, JsonSe
     /**
      * Apply to optimization.
      *
-     * @return \ACFBentveld\XML\Data\XMLObject|array
+     * @return \OliveraD\XML\Data\XMLObject|array
      */
     private function applyOptimize()
     {

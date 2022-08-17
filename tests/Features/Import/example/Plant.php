@@ -1,8 +1,8 @@
 <?php
 
-namespace ACFBentveld\XML\Tests\Features\Import\example;
+namespace OliveraD\XML\Tests\Features\Import\example;
 
-use ACFBentveld\XML\Casts\Castable;
+use OliveraD\XML\Casts\Castable;
 
 class Plant implements Castable
 {

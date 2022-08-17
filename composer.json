@@ -1,5 +1,5 @@
 {
-  "name": "laravel/parse-xml",
+  "name": "oliverad/parse-xml",
   "description": "",
   "keywords": [
     "XML",
@@ -31,12 +31,12 @@
   },
   "autoload": {
     "psr-4": {
-      "ACFBentveld\\XML\\": "src"
+      "OliveraD\\XML\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ACFBentveld\\XML\\Tests\\": "tests"
+      "OliveraD\\XML\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -49,10 +49,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ACFBentveld\\XML\\XMLServiceProvider"
+        "OliveraD\\XML\\XMLServiceProvider"
       ],
       "aliases": {
-        "XML": "ACFBentveld\\XML\\XMLFacade"
+        "XML": "OliveraD\\XML\\XMLFacade"
       }
     }
   },

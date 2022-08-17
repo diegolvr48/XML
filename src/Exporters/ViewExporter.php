@@ -1,8 +1,8 @@
 <?php
 
-namespace ACFBentveld\XML\Exporters;
+namespace OliveraD\XML\Exporters;
 
-use ACFBentveld\XML\XMLBuilder;
+use OliveraD\XML\XMLBuilder;
 
 class ViewExporter extends XMLBuilder implements Exporter
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace ACFBentveld\XML\Tests\Features\Import;
+namespace OliveraD\XML\Tests\Features\Import;
 
-use ACFBentveld\XML\Data\XMLElement;
-use ACFBentveld\XML\Tests\TestCase;
-use ACFBentveld\XML\XML;
+use OliveraD\XML\Data\XMLElement;
+use OliveraD\XML\Tests\TestCase;
+use OliveraD\XML\XML;
 
 class SimpleImportTest extends TestCase
 {

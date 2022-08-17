@@ -1,10 +1,10 @@
 <?php
 
-namespace ACFBentveld\XML\Tests\Features\Import;
+namespace OliveraD\XML\Tests\Features\Import;
 
-use ACFBentveld\XML\Tests\TestCase;
-use ACFBentveld\XML\Transformers\ArrayTransformer;
-use ACFBentveld\XML\XML;
+use OliveraD\XML\Tests\TestCase;
+use OliveraD\XML\Transformers\ArrayTransformer;
+use OliveraD\XML\XML;
 
 class ArrayTransformerTest extends TestCase
 {

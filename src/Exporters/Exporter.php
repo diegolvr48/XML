@@ -1,6 +1,6 @@
 <?php
 
-namespace ACFBentveld\XML\Exporters;
+namespace OliveraD\XML\Exporters;
 
 interface Exporter
 {

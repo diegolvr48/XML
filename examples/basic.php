@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-use ACFBentveld\XML\XML;
+use OliveraD\XML\XML;
 
 $notes = XML::import('notes.xml')->get();
 

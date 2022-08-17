@@ -1,6 +1,6 @@
 <?php
 
-namespace ACFBentveld\XML;
+namespace OliveraD\XML;
 
 use Illuminate\Support\Str;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace ACFBentveld\XML;
+namespace OliveraD\XML;
 
-use ACFBentveld\XML\Exporters\ArrayExporter;
-use ACFBentveld\XML\Exporters\ViewExporter;
+use OliveraD\XML\Exporters\ArrayExporter;
+use OliveraD\XML\Exporters\ViewExporter;
 
 /**
  * A Laravel XML Import & Export package.
@@ -25,7 +25,7 @@ class XML
      *
      * @param array $data - the data to export
      *
-     * @return \ACFBentveld\XML\Exporters\ArrayExporter
+     * @return \OliveraD\XML\Exporters\ArrayExporter
      * @author Amando Vledder <amando.vledder@nugtr.nl>
      */
     public static function export(array $data)
@@ -39,7 +39,7 @@ class XML
      * @param string $viewName - the name of the view
      * @param array  $data     - the data to pass to the view
      *
-     * @return \ACFBentveld\XML\Exporters\ViewExporter
+     * @return \OliveraD\XML\Exporters\ViewExporter
      */
     public static function exportView(string $viewName, $data = [])
     {
@@ -53,7 +53,7 @@ class XML
      *
      * @param bool   $raw  - set to true to return raw xml data
      *
-     * @return \ACFBentveld\XML\Data\XMLCollection|\ACFBentveld\XML\Data\XMLElement
+     * @return \OliveraD\XML\Data\XMLCollection|\OliveraD\XML\Data\XMLElement
      * @throws \Exception
      */
     public static function import(string $path, bool $raw = false)

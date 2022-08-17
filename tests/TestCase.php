@@ -1,9 +1,9 @@
 <?php
 
-namespace ACFBentveld\XML\Tests;
+namespace OliveraD\XML\Tests;
 
-use ACFBentveld\XML\XMLFacade;
-use ACFBentveld\XML\XMLServiceProvider;
+use OliveraD\XML\XMLFacade;
+use OliveraD\XML\XMLServiceProvider;
 use Illuminate\Support\Facades\Artisan;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Spatie\Snapshots\MatchesSnapshots;

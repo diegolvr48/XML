@@ -1,8 +1,8 @@
 <?php
 
-namespace ACFBentveld\XML\Transformers;
+namespace OliveraD\XML\Transformers;
 
-use ACFBentveld\XML\Exceptions\UnknownTransformException;
+use OliveraD\XML\Exceptions\UnknownTransformException;
 
 class PendingTransform
 {
@@ -32,7 +32,7 @@ class PendingTransform
      *
      * @param $as
      *
-     * @throws \ACFBentveld\XML\Exceptions\UnknownTransformException
+     * @throws \OliveraD\XML\Exceptions\UnknownTransformException
      */
     public function as($alias)
     {

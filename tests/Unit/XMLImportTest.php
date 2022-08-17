@@ -1,9 +1,9 @@
 <?php
 
-namespace ACFBentveld\XML\Tests\Unit;
+namespace OliveraD\XML\Tests\Unit;
 
-use ACFBentveld\XML\Tests\TestCase;
-use ACFBentveld\XML\XML;
+use OliveraD\XML\Tests\TestCase;
+use OliveraD\XML\XML;
 
 class XMLImportTest extends TestCase
 {
